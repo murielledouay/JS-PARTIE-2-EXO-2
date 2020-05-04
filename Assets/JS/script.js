@@ -1,4 +1,5 @@
-//on déclare la fonction du calcul quand on l'appelle
-function myFunction(){
-  alert("Ceci s'affiche dès que vous touchez le clavier");
+function recupText(){ // fonction de récupération du texte
+  var text1 = document.getElementById('text1').value;
+// déclaration de la variable text1 et récupération de la veleur de l'input text 1
+  alert(text1); // boîte de dialogue qui affiche la variable text1 ou la valeur input
   }
